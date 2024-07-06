@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoSpringApplication<demo-spring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.miniproject.fcs.demo_spring.DemoSpringApplication",
+            "projectName": "demo-spring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
