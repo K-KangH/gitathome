@@ -274,4 +274,13 @@ legend {
   font-size: 0;
   clear: both;
   content: "";
+}
+
+.inner {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+body {
+  background: linear-gradient(to right, #b5191a 60%, #231f20 60%, #231f20 62.86%, #b5191a 62.86%, #b5191a 65.72%, #231f20 65.72%, #231f20 68.58%, #b5191a 68.58%, #b5191a 71.44%, #231f20 71.44%, #231f20 74.3%, #b5191a 74.3%, #b5191a 77.16%, #231f20 77.16%, #231f20 80.02%, #b5191a 80.02%);
 }/*# sourceMappingURL=styles.css.map */

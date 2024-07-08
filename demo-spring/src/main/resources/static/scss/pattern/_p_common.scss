@@ -1,0 +1,43 @@
+// body {
+//     background: linear-gradient(
+//         to right,
+//         $fc-red 60%,
+//         $fc-black 60%,
+//         $fc-black 62.86%,
+//         $fc-red 62.86%,
+//         $fc-red 65.72%,
+//         $fc-black 65.72%,
+//         $fc-black 68.58%,
+//         $fc-red 68.58%,
+//         $fc-red 71.44%,
+//         $fc-black 71.44%,
+//         $fc-black 74.3%,
+//         $fc-red 74.3%,
+//         $fc-red 77.16%,
+//         $fc-black 77.16%,
+//         $fc-black 80.02%,
+//         $fc-red 80.02%
+//     );
+// }
+
+@mixin custom-gradient($start-percent) {
+    background: linear-gradient(
+        to right,
+        $fc-red $start-percent,
+        $fc-black $start-percent,
+        $fc-black ($start-percent + 2.86%),
+        $fc-red ($start-percent + 2.86%),
+        $fc-red ($start-percent + 5.72%),
+        $fc-black ($start-percent + 5.72%),
+        $fc-black ($start-percent + 8.58%),
+        $fc-red ($start-percent + 8.58%),
+        $fc-red ($start-percent + 11.44%),
+        $fc-black ($start-percent + 11.44%),
+        $fc-black ($start-percent + 14.3%),
+        $fc-red ($start-percent + 14.3%),
+        $fc-red ($start-percent + 17.16%),
+        $fc-black ($start-percent + 17.16%),
+        $fc-black ($start-percent + 20.02%),
+        $fc-red ($start-percent + 20.02%)
+    );
+}
