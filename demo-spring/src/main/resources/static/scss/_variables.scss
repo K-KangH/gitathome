@@ -51,8 +51,12 @@ $linkDefult: #666;
 $white: #fff;
 $black: #000;
 
-$fc-red: #b5191a;
-$fc-black: #231f20;
+// 투명도 적용시 사용할 변수
+$fc-red: rgb(181, 25, 26, 0.95);
+$fc-black: rgb(35, 31, 32, 0.95);
+
+// $fc-red: #b5191a;
+// $fc-black: #231f20;
 $fc-bargap: 2.86%;
 
 ////////////////////////////

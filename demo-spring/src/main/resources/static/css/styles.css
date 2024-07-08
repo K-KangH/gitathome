@@ -281,6 +281,39 @@ legend {
   padding-right: 2.4rem;
 }
 
+#header {
+  padding-top: 3rem;
+  display: block;
+  height: 10rem;
+}
+#header .head-in {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+}
+#header #logo a {
+  display: block;
+  width: 5.1rem;
+  background: url(https://i.namu.wiki/i/Y2BiXx_mpCVVtW2P8y6CLvEnV8ncFWz3qjouKoQ6ZvEi9yy_3769KjPeWjCaAttJ1VVpA325FekPAX-NGqJfR5tiMcJNV3JqJwYkGcG6lOjqBYhnUWKoywXzFJISNrO-Im8vEaSKOy1KAFgMt6vjUw.svg) no-repeat 50% 50%;
+  background-size: contain;
+  text-indent: -9999px;
+  align-items: center;
+}
+#header #gnb {
+  position: static;
+  display: flex;
+  width: auto;
+  padding: 0;
+}
+#header #gnb dt dd {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  flex: 1;
+}
+
 body {
-  background: linear-gradient(to right, #b5191a 60%, #231f20 60%, #231f20 62.86%, #b5191a 62.86%, #b5191a 65.72%, #231f20 65.72%, #231f20 68.58%, #b5191a 68.58%, #b5191a 71.44%, #231f20 71.44%, #231f20 74.3%, #b5191a 74.3%, #b5191a 77.16%, #231f20 77.16%, #231f20 80.02%, #b5191a 80.02%);
+  background: linear-gradient(to right, rgba(181, 25, 26, 0.95) 60%, rgba(35, 31, 32, 0.95) 60%, rgba(35, 31, 32, 0.95) 62.86%, rgba(181, 25, 26, 0.95) 62.86%, rgba(181, 25, 26, 0.95) 65.72%, rgba(35, 31, 32, 0.95) 65.72%, rgba(35, 31, 32, 0.95) 68.58%, rgba(181, 25, 26, 0.95) 68.58%, rgba(181, 25, 26, 0.95) 71.44%, rgba(35, 31, 32, 0.95) 71.44%, rgba(35, 31, 32, 0.95) 74.3%, rgba(181, 25, 26, 0.95) 74.3%, rgba(181, 25, 26, 0.95) 77.16%, rgba(35, 31, 32, 0.95) 77.16%, rgba(35, 31, 32, 0.95) 80.02%, rgba(181, 25, 26, 0.95) 80.02%);
 }/*# sourceMappingURL=styles.css.map */

@@ -3,4 +3,38 @@
     padding-right: 2.4rem;
 }
 
+#header {
+    padding-top: 3rem;
+    display: block;
+    height: 10rem;
+    .head-in {
+        display: flex;
+        justify-content: space-between;
+        height: 6rem;
+    }
+    #logo a {
+        display: block;
+        width: 5.1rem;
+        background: url(https://i.namu.wiki/i/Y2BiXx_mpCVVtW2P8y6CLvEnV8ncFWz3qjouKoQ6ZvEi9yy_3769KjPeWjCaAttJ1VVpA325FekPAX-NGqJfR5tiMcJNV3JqJwYkGcG6lOjqBYhnUWKoywXzFJISNrO-Im8vEaSKOy1KAFgMt6vjUw.svg)
+            no-repeat 50% 50%;
+        background-size: contain;
+        text-indent: -9999px;
+        align-items: center;
+    }
+    #gnb {
+        position: static;
+        display: flex;
+        width: auto;
+        padding: 0;
+        dt {
+            dd {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
 
+#container {
+    flex: 1;
+}
